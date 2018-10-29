@@ -1,0 +1,39 @@
+#var=value, or --flag, or #
+
+nJobs=4
+
+data=data\nino
+--corr
+
+gridXdim=10
+gridYdim=100
+distChange = 0
+
+
+#window size one year:
+wnd=365
+#time step half a year
+tstep=91
+tstart='1951-01-01'
+tend='2014-12-31'
+#tend='1975-12-31'
+#smooth=1
+
+#clustering=BlockCorr
+eps=0.65
+#epsLower=0.70
+#epsDelta=0.01
+
+clustering=DBSCAN
+
+minPts=1
+
+--plotFile
+
+#--cltNoRender
+#--cltNoStats
+--cltPlotFullStats
+--cltIncludeNorm
+
+--progress
+--verbose
