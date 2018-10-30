@@ -4,7 +4,6 @@ chen/
 clt/
 build/
 cluster/
-galeano/
 results/
 _alldata/
 grid/
@@ -12,15 +11,7 @@ src/clt
 .ipynb_checkpoints/
 Untitled.ipynb
 corrs.log
-inflatebin_1.h5
-ninobin_1.h5
-perf.log
-stats.log
-statsback.log
-statsmultipeak.log
-*bin_1.h5
-*data*
+*.h5
 *.csv
-scores/
-experiments/
-delete/
+evaluation/
+plots/

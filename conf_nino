@@ -1,8 +1,14 @@
 #var=value, or --flag, or #
 
 nJobs=4
+wd=
 
 data=data\nino
+#add data file name and location
+
+plotDir=experiments\plots
+evaluationDir=experiments\evaluation
+
 --corr
 
 gridXdim=10

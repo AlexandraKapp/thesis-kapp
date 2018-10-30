@@ -1,10 +1,13 @@
 #var=value, or --flag, or #
 
 nJobs=4
+wd=
 
-data=data\SP_withoutNull_LogGrowth
-plotDir=experiments\stock\plots
-evaluationDir=experiments\stock\evaluation
+data=data\
+#add data file name and location
+
+plotDir=experiments\plots
+evaluationDir=experiments\evaluation
 
 gridXdim=10
 gridYdim=100
