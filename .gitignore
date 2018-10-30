@@ -13,5 +13,6 @@ Untitled.ipynb
 corrs.log
 *.h5
 *.csv
+*.log
 evaluation/
 plots/
