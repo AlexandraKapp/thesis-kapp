@@ -5,6 +5,7 @@ import csv
 from scipy import stats
 
 import conf
+import utils
 
 def write_scores(path, columns, values, eps, th, corrCoef, filename, noise, clusterAlg, wnd, tstep):
     """write scores to csv file
@@ -86,6 +87,7 @@ def compute_recPrecF1_allTh(df, columns, change_points, filename, noise, eps, co
             logB[col] = get_rec_prec_f1(hitsB, len(points), len(index_change_pointsB))
             logALL[col] = get_rec_prec_f1(hitsALL, len(points), len(change_points.iloc[:, 0]))
 
+        utils.makedirs(conf.evaluationDir )
         write_scores(conf.evaluationDir + '\\precA.csv', columns, logA.loc['precision'], eps, th, corrCoef, filename,
                      noise, clusterAlg, wnd, tstep)
         write_scores(conf.evaluationDir + '\\recA.csv', columns, logA.loc['recall'], eps, th, corrCoef, filename,
