@@ -4,11 +4,12 @@ nJobs=4
 wd=
 # working directory, if empty current folder
 
-data=data\
-#enter data file
+data=
+#enter data file location
 
-plotDir=experiments\plots
-evaluationDir=experiments\evaluation
+plotDir=plot
+evaluationDir=evaluation
+#enter location where evaluation and plots shall be stored
 
 gridXdim=10
 gridYdim=100

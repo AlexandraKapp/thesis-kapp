@@ -3,11 +3,12 @@
 nJobs=4
 wd=
 
-data=data\nino
+data=
 #add data file name and location
 
-plotDir=experiments\plots
-evaluationDir=experiments\evaluation
+plotDir=plot
+evaluationDir=evaluation
+#enter location where evaluation and plots shall be stored
 
 --corr
 
